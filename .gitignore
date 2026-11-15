@@ -1,0 +1,29 @@
+# Allowlist: nothing is tracked unless listed here. This folder also holds the game data, Unity's
+# runtime, FMOD, build outputs and logs - none of that may end up in git.
+/*
+!/.gitignore
+!/README.md
+!/jugar.sh
+
+!/tools/
+/tools/*
+!/tools/*.py
+!/tools/*.sh
+!/tools/*.cpp
+
+!/overlay/
+!/overlay/*.cs
+
+!/android/
+/android/*
+!/android/java/
+!/android/ilpatch/
+/android/ilpatch/*
+!/android/ilpatch/*.cs
+!/android/steamstub/
+/android/steamstub/*
+!/android/steamstub/*.c
+!/android/steamstub/*.txt
+
+__pycache__/
+*.pyc
